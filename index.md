@@ -18,7 +18,7 @@
     * Una vez la VPS este ejecutándose correctamente, accedemos a ella mediante la consola VNC en explorador y nos validaremos, una pasado hecho esta pedirá que cambiemos la contraseña. 
     * Al finalizar los pasos anteriores, nos tendremos que volver a validar y deberemos de ejecutar el siguiente comando: ```ifconfig -a```.
     ![](./images/Captura.PNG)
-**2. Configuración del SSH en VSCODE**
+2. __Configuración del SSH en VSCODE__
     * Crearemos una nueva conexión con Remote-SSH ejecutando ```ssh usuario@10.6.130.7```
     * Editaremos el fichero config de Remote-SSH y añadiremos ```Host DSI```, para así no tener que acordarnos de la IP siempre. Quedaría de la siguiente forma:  
     ```
@@ -30,14 +30,19 @@
     ![](./images/Captura14.PNG)
     > De esta forma solo tendremos que poner la contraseña cada vez que accedamos o tengamos que cambiar de directorio en el menú propio de VSCODE.
     >
-
+3. __Configuración básica de la VPS__
+    * 
+    ![](./images/Captura2.PNG)
+    * 
+    ![](./images/Captura3.PNG)
+    *
+    ![](./images/Captura4.PNG)
+4. __Actualización de la VPS e instalación de Git__
+    * 
+    ![](./images/Captura5.PNG)
 
 ## Instalación de git y Node.js
 
-![](./images/Captura2.PNG)
-![](./images/Captura3.PNG)
-![](./images/Captura4.PNG)
-![](./images/Captura5.PNG)
 ![](./images/Captura6.PNG)
 ![](./images/Captura7.PNG)
 ![](./images/Captura8.PNG)

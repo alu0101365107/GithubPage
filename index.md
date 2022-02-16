@@ -1,6 +1,5 @@
 # Práctica 1 - Configuración de máquina virtual en el IaaS
 * * *
-**Desarrollo en Sistemas Informáticos**
 
 * Nombre: Héctor Rodríguez Alonso.
 * Fecha: 2022-02-20.

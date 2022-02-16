@@ -8,8 +8,8 @@
 
 * * *
 # Indice
-* [Configuración][##Configuracion previa]
-* [Instalación][##Instalación de git y Node.js]
+* [Configuración](Configuracion previa)
+* [Instalación](Instalación de git y Node.js)
 
 ## Configuracion previa
 <img src="./images/Captura.PNG" width="50" height="100">

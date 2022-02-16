@@ -35,10 +35,10 @@
     ![](./images/Captura2.PNG)
     * Visualizaremos el nombre del host mediante ```cat /etc/hosts``` y modificaremos _ubuntu_ por _iaas-dsi_ este con ```sudo vi /etc/hosts```, verificamos el cambio con el primer comando usado. 
     ![](./images/Captura3.PNG)
-    *
-    ![](./images/Captura4.PNG)
 4. __Actualización de la VPS e instalación de Git__
     * 
+    ![](./images/Captura4.PNG)
+    *
     ![](./images/Captura5.PNG)
 
 ## Instalación de git y Node.js

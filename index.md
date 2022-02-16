@@ -45,13 +45,11 @@
     * Una vez instalado el paquete, deberemos de configurar el usuario y correo de nuestra cuenta de GitHub al paquete. Para ello usaremos ```git config --global user.name " "``` donde colocaremos nuestro nombre y ``` git config --global user.mail``` colocando el correo. Usaremos la flag _--global_ para no tener que estar configurando este en cada proyecto donde usemos Git.
     ![](./images/Captura6.PNG)
 
-## Configuración del SSH de GitHub con nuestra VPS
-    
+## Configuración del SSH de GitHub con nuestra VPS y cambio en el estilo de la Terminal
+![](./images/Captura8.PNG)
+![](./images/Captura7.PNG)
 ## Instalación de git y Node.js
 
-
-![](./images/Captura7.PNG)
-![](./images/Captura8.PNG)
 ![](./images/Captura9.PNG)
 ![](./images/Captura10.PNG)
 ![](./images/Captura11.PNG)

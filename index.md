@@ -35,10 +35,10 @@
     ![](./images/Captura2.PNG)
     * Visualizaremos el nombre del host mediante ```cat /etc/hosts``` y modificaremos _ubuntu_ por _iaas-dsi_ este con ```sudo vi /etc/hosts```, verificamos el cambio con el primer comando usado. 
     ![](./images/Captura3.PNG)
-4. __Actualización de la VPS e instalación de Git__
-    * 
+4. __Actualización de la VPS y generación de la RSA__
+    * Lanzaremos los siguientes comandos ``` sudo apt update``` y ```sudo apt upgrade```
     ![](./images/Captura4.PNG)
-    *
+    * Mediante el comando ```ssh-keygen``` obtendremos una RSA, la cual utilizaremos más adelante.
     ![](./images/Captura5.PNG)
 
 ## Instalación de git y Node.js

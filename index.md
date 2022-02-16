@@ -55,6 +55,3 @@
 ![](./images/Captura11.PNG)
 ![](./images/Captura12.PNG)
 ![](./images/Captura13.PNG)
-
-
-Cambio en el hostname

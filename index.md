@@ -11,7 +11,7 @@
 * [Configuracion](#configuracion)
 
 ## Configuracion
-<img src="https://github.com/alu0101365107/GithubPage/blob/873659fcf2fd4c78388b3e669558ef006963aaab/images/Captura.PNG" width="50" height="100">
+<img src="./images/Captura.PNG" width="50" height="100">
 ![](./images/Captura.PNG)
 ![](./images/Captura2.PNG)
 ![](./images/Captura3.PNG)

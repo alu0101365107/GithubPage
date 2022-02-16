@@ -46,7 +46,13 @@
     ![](./images/Captura6.PNG)
 
 ## Configuración del SSH de GitHub con nuestra VPS y cambio en el estilo de la Terminal
-![](./images/Captura8.PNG)
+    * Accederemos a [GitHub](https://github.com/), nos validaremos, ajustes, SSH y GPG, ahí añadiremos una nueva Key, la cual es la RSA generada anteriormente.
+    ![](./images/Captura8.PNG)
+    * A la hora de cambiar el estilo en la terminal, deberemos de descargar el script [git prompt](https://github.com/git/git/blob/master/contrib/completion/git-prompt.sh).  
+    Una vez descargado, lo colocaremos en nuestra VPS al mismo nivel que  el ficehero _.bashrc_, en este añadiremos la siguiente línea;  
+    ```
+PS1='\[\033]0;\u@\h:\w\007\]\[\033[0;34m\][\[\033[0;31m\]\w\[\033[0;32m\]($(git branch 2>/dev/null | sed -n "s/\* \(.*\)/\1/p"))\[\033[0;34m\]]$'
+    ``` 
 ![](./images/Captura7.PNG)
 ## Instalación de git y Node.js
 

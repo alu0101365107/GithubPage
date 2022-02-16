@@ -12,7 +12,6 @@
 * [Instalación de git y node.js](#instalaci%C3%B3n-de-git-y-nodejs)
 
 ## Configuracion previa
-<img src="./images/Captura.PNG" width="50" height="100">
 1. __Encendido y visualización de la IP de la VPS__
     * Deberemos de acceder al [IAAS](https://iaas.ull.es/ovirt-engine/sso/login.html) y tomar nuestra máquina, encenderla y esperar a que esté operativa.
     * Una vez la VPS este ejecutándose correctamente, accedemos a ella mediante la consola VNC en explorador y nos validaremos, una pasado hecho esta pedirá que cambiemos la contraseña. 
@@ -46,6 +45,7 @@
     ![](./images/Captura6.PNG)
 
 ## Configuración del SSH de GitHub con nuestra VPS y cambio en el estilo de la Terminal
+1. __Github__
     * Accederemos a [GitHub](https://github.com/), nos validaremos, ajustes, SSH y GPG, ahí añadiremos una nueva Key, la cual es la RSA generada anteriormente.
     ![](./images/Captura8.PNG)
     * A la hora de cambiar el estilo en la terminal, deberemos de descargar el script [git prompt](https://github.com/git/git/blob/master/contrib/completion/git-prompt.sh).  

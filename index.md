@@ -2,7 +2,7 @@
 * * *
 **Desarrollo en Sistemas Informaticos**
 
-    * Nombre: Héctor Rodríguez Alonso.
+* Nombre: Héctor Rodríguez Alonso.
 * Fecha: 2022-02-20.
 * Alu: alu0101365107.
 
@@ -11,8 +11,6 @@
 * [Configuracion](#configuracion)
 
 ## Configuracion
-Cambio en el hostname
-
 ![](./images/Captura.PNG)
 
 Cambio en el hostname

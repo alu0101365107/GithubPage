@@ -4,16 +4,19 @@
 
 * Nombre: Héctor Rodríguez Alonso.
 * Fecha: 2022-02-20.
-* Alu: alu0101365107.
+* Correo: alu0101365107@ull.edu.es.
 
 * * *
 # Indice
-* [Configuracion](#configuracion)
+* [Configuración](#configuracion-previa)
+* [Instalación](#Instalación-de-git-y-Node.js)
 
-## Configuracion
+## Configuracion previa
 <img src="./images/Captura.PNG" width="50" height="100">
 1. Encendido y visualización de la IP de la VPS
-    * Deberemos de acceder al ![IAAS](https://iaas.ull.es/ovirt-engine/sso/login.html) y tomar nuestra máquina, encenderla y esperar a que esté encendida. Acto seguido entramos a la consola por navegador y ejecutamos el siguiente comando:\n ```ifconfig -a```
+    * Deberemos de acceder al [IAAS](https://iaas.ull.es/ovirt-engine/sso/login.html) y tomar nuestra máquina, encenderla y esperar a que esté encendida. Acto seguido entramos a la consola por navegador y ejecutamos el siguiente comando: ```ifconfig -a```
+
+## Instalación de git y Node.js
 ![](./images/Captura.PNG)
 ![](./images/Captura2.PNG)
 ![](./images/Captura3.PNG)

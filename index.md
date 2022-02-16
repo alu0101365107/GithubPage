@@ -13,7 +13,7 @@
 
 ## Configuracion previa
 <img src="./images/Captura.PNG" width="50" height="100">
-__1. Encendido y visualización de la IP de la VPS__
+1. __Encendido y visualización de la IP de la VPS__
     * Deberemos de acceder al [IAAS](https://iaas.ull.es/ovirt-engine/sso/login.html) y tomar nuestra máquina, encenderla y esperar a que esté operativa.
     * Una vez la VPS este ejecutándose correctamente, accedemos a ella mediante la consola VNC en explorador y nos validaremos, una pasado hecho esta pedirá que cambiemos la contraseña. 
     * Al finalizar los pasos anteriores, nos tendremos que volver a validar y deberemos de ejecutar el siguiente comando: ```ifconfig -a```.

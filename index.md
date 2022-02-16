@@ -21,7 +21,7 @@
 2. Configuración del SSH en VSCODE
     * Crearemos una nueva conexión con Remote-SSH ejecutando ```ssh usuario@10.6.130.7```
     * Editaremos el fichero config de Remote-SSH y añadiremos ```Host DSI```, para así no tener que acordarnos de la IP siempre. Quedaría de la siguiente forma:
-    ```Host DSI\n
+    ```\nHost DSI\n
         HostName 10.6.130.7\n
         User usuario\n
     ```

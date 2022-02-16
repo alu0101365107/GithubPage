@@ -1,7 +1,18 @@
-# Práctica 1 - Configuración de máquina virtual en el IaaS
+# Desarrollo en Sistemas Informaticos
 
+# Práctica 1 - Configuración de máquina virtual en el IaaS
+* * *
+* Nombre: Héctor Rodríguez Alonso.
+    * Fecha: 2022-02-20.
+* Alu: alu0101365107.
+
+* * *
+# Indice
+* [Configuracion](#configuracion)
+
+## Configuracion
 Cambio en el hostname
 
-![Foto](./images/Captura.PNG)
+![](./images/Captura.PNG)
 
 Cambio en el hostname

@@ -44,6 +44,9 @@
     * Mediante el comando ```sudo apt install git``` instalaremos el paquete de Git
     * Una vez instalado el paquete, deberemos de configurar el usuario y correo de nuestra cuenta de GitHub al paquete. Para ello usaremos ```git config --global user.name " "``` donde colocaremos nuestro nombre y ``` git config --global user.mail``` colocando el correo. Usaremos la flag _--global_ para no tener que estar configurando este en cada proyecto donde usemos Git.
     ![](./images/Captura6.PNG)
+
+## Configuración del SSH de GitHub con nuestra VPS
+    
 ## Instalación de git y Node.js
 
 

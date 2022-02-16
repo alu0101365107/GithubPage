@@ -31,9 +31,9 @@
     > De esta forma solo tendremos que poner la contraseña cada vez que accedamos o tengamos que cambiar de directorio en el menú propio de VSCODE.
     >
 3. __Configuración básica de la VPS__
-    * 
+    * Visualizaremos el hostname de la VPS mediante ```cat /etc/hostname``` y modificaremos _ubuntu_ por _iaas-dsi_ con ```sudo vi /etc/hostname```, una vez hecho, verificamos el cambio con el primer comando usado.
     ![](./images/Captura2.PNG)
-    * 
+    * Visualizaremos el nombre del host mediante ```cat /etc/hosts``` y modificaremos _ubuntu_ por _iaas-dsi_ este con ```sudo vi /etc/hosts``` 
     ![](./images/Captura3.PNG)
     *
     ![](./images/Captura4.PNG)

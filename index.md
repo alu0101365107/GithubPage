@@ -8,8 +8,9 @@
 
 * * *
 # Indice
-* [Configuración](Configuracion previa)
-* [Instalación](Instalación de git y Node.js)
+* [Configuración previa](#configuracion-previa)
+* [Configuración GitHub y estilo de la Terminal](#configuraci%C3%B3n-del-ssh-de-github-con-nuestra-vps-y-cambio-en-el-estilo-de-la-terminal)
+* [Instalación de git y node.js](#instalaci%C3%B3n-de-git-y-nodejs)
 
 ## Configuracion previa
 <img src="./images/Captura.PNG" width="50" height="100">

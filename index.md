@@ -12,5 +12,18 @@
 
 ## Configuracion
 ![](./images/Captura.PNG)
+![](./images/Captura2.PNG)
+![](./images/Captura3.PNG)
+![](./images/Captura4.PNG)
+![](./images/Captura5.PNG)
+![](./images/Captura6.PNG)
+![](./images/Captura7.PNG)
+![](./images/Captura8.PNG)
+![](./images/Captura9.PNG)
+![](./images/Captura10.PNG)
+![](./images/Captura11.PNG)
+![](./images/Captura12.PNG)
+![](./images/Captura13.PNG)
+
 
 Cambio en el hostname

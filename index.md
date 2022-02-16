@@ -17,7 +17,7 @@
     * Deberemos de acceder al [IAAS](https://iaas.ull.es/ovirt-engine/sso/login.html) y tomar nuestra máquina, encenderla y esperar a que esté operativa.
     * Una vez la VPS este ejecutándose correctamente, accedemos a ella mediante la consola VNC en explorador y nos validaremos, una pasado hecho esta pedirá que cambiemos la contraseña. 
     * Al finalizar los pasos anteriores, nos tendremos que volver a validar y deberemos de ejecutar el siguiente comando: ```ifconfig -a```.
-    ![](./images/Captura.PNG)
+    ![](./images/Captura.PNG) {}
 **2. Configuración del SSH en VSCODE**
     * Crearemos una nueva conexión con Remote-SSH ejecutando ```ssh usuario@10.6.130.7```
     * Editaremos el fichero config de Remote-SSH y añadiremos ```Host DSI```, para así no tener que acordarnos de la IP siempre. Quedaría de la siguiente forma:  

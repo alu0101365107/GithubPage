@@ -1,6 +1,6 @@
 # Práctica 1 - Configuración de máquina virtual en el IaaS
 * * *
-**Desarrollo en Sistemas Informaticos**
+**Desarrollo en Sistemas Informáticos**
 
 * Nombre: Héctor Rodríguez Alonso.
 * Fecha: 2022-02-20.
@@ -12,6 +12,8 @@
 
 ## Configuracion
 <img src="./images/Captura.PNG" width="50" height="100">
+1. Encendido y visualización de la IP de la VPS
+    * Deberemos de acceder al ![IAAS](https://iaas.ull.es/ovirt-engine/sso/login.html) y tomar nuestra máquina, encenderla y esperar a que esté encendida. Acto seguido entramos a la consola por navegador y ejecutamos el siguiente comando:\n ```ifconfig -a```
 ![](./images/Captura.PNG)
 ![](./images/Captura2.PNG)
 ![](./images/Captura3.PNG)

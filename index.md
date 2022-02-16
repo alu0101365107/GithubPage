@@ -14,10 +14,11 @@
 ## Configuracion previa
 <img src="./images/Captura.PNG" width="50" height="100">
 1. Encendido y visualización de la IP de la VPS
-    * Deberemos de acceder al [IAAS](https://iaas.ull.es/ovirt-engine/sso/login.html) y tomar nuestra máquina, encenderla y esperar a que esté encendida. Acto seguido entramos a la consola por navegador y ejecutamos el siguiente comando: ```ifconfig -a```
-
-## Instalación de git y Node.js
+    * Deberemos de acceder al [IAAS](https://iaas.ull.es/ovirt-engine/sso/login.html) y tomar nuestra máquina, encenderla y esperar a que esté operativa. Acto seguido entramos a la consola mediante el navegador y ejecutamos el siguiente comando: ```ifconfig -a```
 ![](./images/Captura.PNG)
+    * Una vez obte
+## Instalación de git y Node.js
+
 ![](./images/Captura2.PNG)
 ![](./images/Captura3.PNG)
 ![](./images/Captura4.PNG)

@@ -26,6 +26,8 @@
             HostName 10.6.130.7
             User usuario
     ```
+    * Comprobaremos que poseemos la siguiente opción a la hora de hacer el connect a la VPS
+    ![](./images/Captura14.PNG)
 
 
 ## Instalación de git y Node.js

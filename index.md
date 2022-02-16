@@ -2,6 +2,6 @@
 
 Cambio en el hostname
 
-![Foto2](https://github.githubassets.com/images/icons/emoji/octocat.png)
+![Foto1](https://github.githubassets.com/images/icons/emoji/octocat.png)
 
 Cambio en el hostname

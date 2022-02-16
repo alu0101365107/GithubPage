@@ -2,4 +2,4 @@
 
 Cambio en el hostname
 
-![](https://github.com/alu0101365107/GithubPage/blob/main/images/Captura.PNG)
+![Foto1](https://github.com/alu0101365107/GithubPage/blob/main/images/Captura.PNG)

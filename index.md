@@ -29,6 +29,7 @@
     * Comprobaremos que poseemos la siguiente opción a la hora de hacer el connect a la VPS.
     ![](./images/Captura14.PNG)
     > De esta forma solo tendremos que poner la contraseña cada vez que accedamos o tengamos que cambiar de directorio en el menú propio de VSCODE.
+    >
 
 
 ## Instalación de git y Node.js

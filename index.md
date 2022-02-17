@@ -1,10 +1,11 @@
 # Práctica 1 - Configuración de máquina virtual en el IaaS  
-
+* * * 
 * Nombre: Héctor Rodríguez Alonso.
 * Fecha: 2022-02-20.
 * Correo: alu0101365107@ull.edu.es.  
-
+* * *
 # Indice
+* * *
 * [Resumen](#resumen)
 * [Objetivos](#objetivos-a-realizar)
     * [Configuración previa](#configuracion-previa)
@@ -72,4 +73,4 @@ También deberemos de instalar y configurar GitHub para usarlo globalmente en la
     ![](./images/Captura13.PNG)
 
 ### Conclusiones
-Práctica con un grado de complejidad algo creciente, ya que la configuración, instalación y actualizaciones tanto de máquina como paquetes es sencial. En cuanto a GitHub Pages, se incrementa la dificultad, debido al nulo trabajo con ello junto al uso de Markdown, el cual solo había sido utilizado para la generación de Readme.md básicos.
+Práctica con un grado de complejidad algo creciente, ya que la configuración, instalación y actualización tanto de máquina como paquetes es sencillo. En cuanto a GitHub Pages, se incrementa la dificultad, debido al nulo trabajo con ello junto al uso de Markdown, el cual solo había sido utilizado para la generación de Readme.md básicos.

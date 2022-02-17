@@ -8,14 +8,15 @@
 * * *
 # Indice
 * [Resumen](#resumen)
-* [Objetivos](#objetivos)
+* [Objetivos](#objetivos-a-realizar)
     * [Configuración previa](#configuracion-previa)
     * [Instalación de git y node.js](#instalaci%C3%B3n-de-git-y-nodejs)
 * [Conlusiones](#conclusiones) 
 
 ## Resumen
-
-## Objetivos 
+Tendremos que tomar la máquina en el [IAAS](https://iaas.ull.es/ovirt-engine/sso/login.html) y hacer una configuración básica además de actualizarla.  
+También deberemos de instalar y configurar GitHub para usarlo globalmente en la máquina, además de la instalación del gestor de versiones de Node (nvm), el propio Node y su gestor de paquetes(npm).
+## Objetivos a realizar
 
 ### Configuración previa
 1. __Encendido y visualización de la IP de la VPS__
@@ -73,3 +74,4 @@
     ![](./images/Captura13.PNG)
 
 ### Conclusiones
+Práctica con un grado de complejidad algo creciente, ya que la configuración, instalación y actualizaciones tanto de máquina como paquetes es sencial. En cuanto a GitHub Pages, se incrementa la dificultad, debido al nulo trabajo con ello junto al uso de Markdown, el cual solo había sido utilizado para la generación de Readme.md básicos.

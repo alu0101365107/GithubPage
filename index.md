@@ -11,8 +11,7 @@
 * [Objetivos](#objetivos)
     * [Configuración previa](#configuracion-previa)
     * [Instalación de git y node.js](#instalaci%C3%B3n-de-git-y-nodejs)
-* [Conlusiones](#conclusiones)  
-* [Conlusiones](#conclusiones)  
+* [Conlusiones](#conclusiones) 
 
 ## Resumen
 

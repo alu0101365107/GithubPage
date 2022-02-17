@@ -59,7 +59,9 @@
     ![](./images/Captura10.PNG)
 
 4. __Node.js__
-    * 
-![](./images/Captura11.PNG)
-![](./images/Captura12.PNG)
+    * Para instalar el gestor de versiones de Node.js (nvm), usaremos el comando `wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash`, reiniciaremos bash con `exec bash -l` y comprobaremos la version de este `nvm --version`.
+    ![](./images/Captura11.PNG)
+    * Mediante `nvm install node`, obtendremos la version más reciente de Node, además de la instalación del gesto de paquetes (npm), comprobaremos este con `nvm --version` y `npm --version`.
+    ![](./images/Captura12.PNG)
+    * Por último podremos visualizar las posibles versiones de este
 ![](./images/Captura13.PNG)

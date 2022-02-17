@@ -16,10 +16,10 @@
 
 ## Objetivos 
 
-### Configuracion previa
+### Configuración previa
 1. __Encendido y visualización de la IP de la VPS__
     * Deberemos de acceder al [IAAS](https://iaas.ull.es/ovirt-engine/sso/login.html) y tomar nuestra máquina, encenderla y esperar a que esté operativa.
-    * Una vez la VPS este ejecutándose correctamente, accedemos a ella mediante la consola VNC en explorador y nos validaremos, una pasado hecho esta pedirá que cambiemos la contraseña. 
+    * Una vez la VPS este ejecutándose correctamente, accedemos a ella mediante la consola VNC en explorador y nos validaremos, una vez hecho esta pedirá que cambiemos la contraseña. 
     * Al finalizar los pasos anteriores, nos tendremos que volver a validar y deberemos de ejecutar el siguiente comando: `ifconfig -a`.
     ![](./images/Captura.PNG)
 2. __Configuración del SSH en VSCODE__
@@ -30,16 +30,16 @@
             HostName 10.6.130.7
             User usuario
     ```
-    * Comprobaremos que poseemos la siguiente opción a la hora de hacer el connect a la VPS.
+    * Comprobaremos que poseemos la siguiente opción a la hora de hacer al connect del Remote-SSH de la VPS.
     ![](./images/Captura14.PNG)
     > De esta forma solo tendremos que poner la contraseña cada vez que accedamos o tengamos que cambiar de directorio en el menú propio de VSCODE.
     >
 3. __Configuración básica de la VPS__
     * Visualizaremos el hostname de la VPS mediante `cat /etc/hostname` y modificaremos _ubuntu_ por _iaas-dsi_ con `sudo vi /etc/hostname`, una vez hecho, verificamos el cambio con el primer comando usado.
     ![](./images/Captura2.PNG)
-    * Visualizaremos el nombre del host mediante `cat /etc/hosts` y modificaremos _ubuntu_ por _iaas-dsi_ este con `sudo vi /etc/hosts`, verificamos el cambio con el primer comando usado. 
+    * Mmediante `cat /etc/hosts` observaremos el fichero hosts y modificaremos _ubuntu_ por _iaas-dsi_ con `sudo vi /etc/hosts`, verificamos el cambio con el primer comando usado. 
     ![](./images/Captura3.PNG)
-    * Lanzaremos los siguientes comandos `sudo apt update` y `sudo apt upgrade`, una vez finalicen, reiniciamos la máquina.
+    * Lanzaremos los siguientes comandos `sudo apt update` y `sudo apt upgrade` para actualizar nuestra VPS, una vez finalicen, reiniciamos la máquina.
     ![](./images/Captura4.PNG)
     * Mediante el comando `ssh-keygen` obtendremos una RSA, la cual utilizaremos más adelante.
     ![](./images/Captura5.PNG)
@@ -47,7 +47,7 @@
 ## Instalación de Git y Node.js
 1. __Github__
     * Mediante el comando `sudo apt install git` instalaremos el paquete de Git.
-    * Una vez instalado el paquete, deberemos de configurar el usuario y correo de nuestra cuenta de GitHub al paquete. Para ello usaremos `git config --global user.name " "`donde colocaremos nuestro nombre y `git config --global user.mail " " ` colocando el correo. Usaremos la flag _--global_ para no tener que estar configurando este en cada proyecto donde usemos Git.
+    * Una vez instalado el paquete, deberemos de configurar el usuario y correo de nuestra cuenta de GitHub al paquete. Para ello usaremos `git config --global user.name " "`donde colocaremos nuestro nombre y `git config --global user.mail " " ` colocando el correo. Usaremos la flag _--global_ para no tener que estar configurando este en cada repositorio que creemos.
     ![](./images/Captura6.PNG)
     * Accederemos a [GitHub](https://github.com/), nos validaremos, entraremos a ajustes, SSH y GPG, ahí añadiremos una nueva Key, la cual es la RSA generada anteriormente.
     ![](./images/Captura8.PNG)

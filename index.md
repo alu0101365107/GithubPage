@@ -1,11 +1,9 @@
-# Práctica 1 - Configuración de máquina virtual en el IaaS
-* * *
+# Práctica 1 - Configuración de máquina virtual en el IaaS  
 
 * Nombre: Héctor Rodríguez Alonso.
 * Fecha: 2022-02-20.
-* Correo: alu0101365107@ull.edu.es.
+* Correo: alu0101365107@ull.edu.es.  
 
-* * *
 # Indice
 * [Resumen](#resumen)
 * [Objetivos](#objetivos-a-realizar)

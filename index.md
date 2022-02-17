@@ -8,7 +8,6 @@
 * * *
 # Indice
 * [Configuración previa](#configuracion-previa)
-* [Configuración GitHub y estilo de la Terminal](#configuraci%C3%B3n-del-ssh-de-github-con-nuestra-vps-y-cambio-en-el-estilo-de-la-terminal)
 * [Instalación de git y node.js](#instalaci%C3%B3n-de-git-y-nodejs)
 
 ## Configuracion previa
@@ -34,30 +33,33 @@
     ![](./images/Captura2.PNG)
     * Visualizaremos el nombre del host mediante `cat /etc/hosts` y modificaremos _ubuntu_ por _iaas-dsi_ este con `sudo vi /etc/hosts`, verificamos el cambio con el primer comando usado. 
     ![](./images/Captura3.PNG)
-4. __Actualización de la VPS y generación de la RSA__
-    * Lanzaremos los siguientes comandos `sudo apt update` y `sudo apt upgrade`
+    * Lanzaremos los siguientes comandos `sudo apt update` y `sudo apt upgrade`, una vez finalicen, reiniciamos la máquina.
     ![](./images/Captura4.PNG)
     * Mediante el comando `ssh-keygen` obtendremos una RSA, la cual utilizaremos más adelante.
     ![](./images/Captura5.PNG)
-5. __Instalación y configuración de Git__
-    * Mediante el comando `sudo apt install git` instalaremos el paquete de Git
+
+## Instalación de Git y Node.js
+1. __Github__
+    * Mediante el comando `sudo apt install git` instalaremos el paquete de Git.
     * Una vez instalado el paquete, deberemos de configurar el usuario y correo de nuestra cuenta de GitHub al paquete. Para ello usaremos `git config --global user.name " "`donde colocaremos nuestro nombre y `git config --global user.mail " " ` colocando el correo. Usaremos la flag _--global_ para no tener que estar configurando este en cada proyecto donde usemos Git.
     ![](./images/Captura6.PNG)
-
-## Configuración del SSH de GitHub con nuestra VPS y cambio en el estilo de la Terminal
-1. __Github__
-    * Accederemos a [GitHub](https://github.com/), nos validaremos, ajustes, SSH y GPG, ahí añadiremos una nueva Key, la cual es la RSA generada anteriormente.
+    * Accederemos a [GitHub](https://github.com/), nos validaremos, entraremos a ajustes, SSH y GPG, ahí añadiremos una nueva Key, la cual es la RSA generada anteriormente.
     ![](./images/Captura8.PNG)
+2. __Cambio en el estilo de la terminal__
     * A la hora de cambiar el estilo en la terminal, deberemos de descargar el script [git prompt](https://github.com/git/git/blob/master/contrib/completion/git-prompt.sh).  
-    Una vez descargado, lo colocaremos en nuestra VPS al mismo nivel que  el ficehero _.bashrc_, en este añadiremos la siguiente línea;  
+    Una vez descargado, lo colocaremos en nuestra VPS al mismo nivel que  el fichero _.bashrc_, en este añadiremos la siguiente línea;  
     ```
     PS1='\[\033]0;\u@\h:\w\007\]\[\033[0;34m\][\[\033[0;31m\]\w\[\033[0;32m\]($(git branch 2>/dev/null | sed -n "s/\* \(.*\)/\1/p"))\[\033[0;34m\]]$'
     ```
-![](./images/Captura7.PNG)
-## Instalación de git y Node.js
+    ![](./images/Captura7.PNG)
 
-![](./images/Captura9.PNG)
-![](./images/Captura10.PNG)
+3. __Comprobación de la terminal y vinculación de GitHub__
+    * Si hemos realizado los pasos anteriormente mencionados, podremos clonar un repositorio nuestro directamente de github sin problemas y en nuestra terminal, entre paréntesis, observaremos la rama actual.
+    ![](./images/Captura9.PNG)
+    ![](./images/Captura10.PNG)
+
+4. __Node.js__
+    * 
 ![](./images/Captura11.PNG)
 ![](./images/Captura12.PNG)
 ![](./images/Captura13.PNG)

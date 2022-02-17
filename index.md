@@ -25,7 +25,7 @@ También deberemos de instalar y configurar GitHub para usarlo globalmente en la
     ![](./images/Captura.PNG)
 2. __Configuración del SSH en VSCODE__
     * Crearemos una nueva conexión con Remote-SSH ejecutando `ssh usuario@10.6.130.7`
-    * Editaremos el fichero config de Remote-SSH y añadiremos `Host DSI`, para así no tener que acordarnos de la IP siempre. Quedaría de la siguiente forma:  
+    * Editaremos el fichero config de Remote-SSH y añadiremos `Host DSI`, para así no tener que acordarnos de la IP siempre.    
     ```
         Host DSI
             HostName 10.6.130.7

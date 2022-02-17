@@ -11,7 +11,7 @@
 * [Objetivos](#objetivos)
     * [Configuración previa](#configuracion-previa)
     * [Instalación de git y node.js](#instalaci%C3%B3n-de-git-y-nodejs)
-* [Conlusiones]
+* [Conlusiones](#conclusiones)
 ## Resumen
 
 ## Objetivos 
@@ -71,3 +71,4 @@
     * Por último podremos visualizar las posibles versiones de Node con `nvm list`, en caso de no tener una versión instalada, usaremos `nvm install _version_`. Para cambiar de versión lo haremos con `nvm use _version_` y comprobaremos el cambio con `nvm --version` y `npm --version`, ya que el gesto de paquetes también ha podido cambiar de versión.
     ![](./images/Captura13.PNG)
 
+### Conclusiones

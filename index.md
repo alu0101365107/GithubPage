@@ -7,10 +7,16 @@
 
 * * *
 # Indice
-* [Configuración previa](#configuracion-previa)
-* [Instalación de git y node.js](#instalaci%C3%B3n-de-git-y-nodejs)
+* [Resumen](#resumen)
+* [Objetivos](#objetivos)
+    * [Configuración previa](#configuracion-previa)
+    * [Instalación de git y node.js](#instalaci%C3%B3n-de-git-y-nodejs)
 
-## Configuracion previa
+## Resumen
+
+## Objetivos 
+
+### Configuracion previa
 1. __Encendido y visualización de la IP de la VPS__
     * Deberemos de acceder al [IAAS](https://iaas.ull.es/ovirt-engine/sso/login.html) y tomar nuestra máquina, encenderla y esperar a que esté operativa.
     * Una vez la VPS este ejecutándose correctamente, accedemos a ella mediante la consola VNC en explorador y nos validaremos, una pasado hecho esta pedirá que cambiemos la contraseña. 
@@ -65,3 +71,4 @@
     ![](./images/Captura12.PNG)
     * Por último podremos visualizar las posibles versiones de Node con `nvm list`, en caso de no tener una versión instalada, usaremos `nvm install _version_`. Para cambiar de versión lo haremos con `nvm use _version_` y comprobaremos el cambio con `nvm --version` y `npm --version`, ya que el gesto de paquetes también ha podido cambiar de versión.
     ![](./images/Captura13.PNG)
+

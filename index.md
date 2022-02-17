@@ -63,5 +63,5 @@
     ![](./images/Captura11.PNG)
     * Mediante `nvm install node`, obtendremos la version más reciente de Node, además de la instalación del gesto de paquetes (npm), comprobaremos este con `nvm --version` y `npm --version`.
     ![](./images/Captura12.PNG)
-    * Por último podremos visualizar las posibles versiones de este
+    * Por último podremos visualizar las posibles versiones de Node con `nvm list`, en caso de no tener una versión instalada, usaremos `nvm install _version_`
 ![](./images/Captura13.PNG)
